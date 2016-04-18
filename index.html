@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="./app.js" type="text/javascript"></script>
+	<title>AngularJS</title>
+</head>
+<body ng-controller="defaultCtrl">
+	<h4>Counter: {{counter}}</h4>
+	<button ng-click="incrementCounter();">Increment Counter</button>
+	<div>intervalCounter = {{ intervalCounter }}</div>
+	<div>timerCounter = {{ timerCounter }}</div>
+</body>
+</html>
