@@ -1,0 +1,9 @@
+{
+  "name": "angular.mocks.testing",
+  "version": "0.0.1",
+  "author": "Nikolay Zamulov",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5"
+  }
+}
